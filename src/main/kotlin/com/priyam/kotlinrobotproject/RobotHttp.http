@@ -1,0 +1,15 @@
+### Get stock
+GET http://localhost:8080
+
+### Make Robot
+POST http://localhost:8080/makeRobot
+Content-Type: application/json
+
+{
+    "components": [
+      "F"
+    ]
+}
+
+
+
